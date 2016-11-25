@@ -1,0 +1,36 @@
+{
+  "name": "reproto",
+  "version": "0.6.2",
+  "author": "pomysky@gamil.com",
+  "description": "A tool for generate random password which contains upper and lower case letters, number and special characters",
+  "license": "MIT",
+  "keywords": [
+    "password",
+    "random",
+    "random password",
+    "letters, number and special characters"
+  ],
+  "contributors": [
+    {
+      "name": "dwqs",
+      "email": "pomysky@gmail.com"
+    }
+  ],
+  "main": "src/index.js",
+  "bin": {
+    "reproto": "./bin/reproto.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwqs/reproto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dwqs/reproto/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/dwqs/reproto"
+}
