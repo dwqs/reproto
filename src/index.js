@@ -16,9 +16,10 @@
 
     var length = 10;
 
-    if(typeof process.argv[2] === 'number'){
-        if(process.argv[2] >= 10 && process.argv[2] <= 15){
-            length = Math.floor(process.argv[2]);
+    if(typeof parseInt(process.argv[2]) === 'number' && !isNaN(parseInt(process.argv[2]))){
+        var l = parseInt(process.argv[2]);
+        if(l >= 10 && l <= 15){
+            length = l;
         }
     }
 
@@ -48,5 +49,5 @@
 
         password = character;
     }
-    return password;
+    return password.length === length ? password.length : password.slice(0,length);
 }));

@@ -1,5 +1,5 @@
 ## Overview
-A tool for generate random password which contains upper and lower case letters, number and special characters:
+A tool for generate simple random password which contains upper or lower case letters, number or special characters:
 
 ```
 b3^f2)E5&U1$,d2@b4-C3:n2$.etc

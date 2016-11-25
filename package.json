@@ -1,6 +1,6 @@
 {
   "name": "reproto",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "author": "pomysky@gamil.com",
   "description": "A tool for generate random password which contains upper and lower case letters, number and special characters",
   "license": "MIT",
