@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-ver pwd = require('../src/reproto');
+var pwd = require('../src/index');
 
 console.log('new password:', pwd());
