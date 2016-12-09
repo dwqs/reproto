@@ -49,5 +49,5 @@
 
         password = character;
     }
-    return password.length === length ? password.length : password.slice(0,length);
+    return password.length === length ? password : password.slice(0,length);
 }));
