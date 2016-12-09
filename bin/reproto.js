@@ -5,7 +5,7 @@ var fs = require('fs');
 var pwd = require('../src/index')();
 var savedPath = process.cwd() + '/password.txt';
 
-fs.writeFile(savedPath, pwd, function (err) {
+fs.writeFile(savedPath, pwd, 'utf8',function (err) {
     try{
         if (err) {
             throw err;
@@ -14,6 +14,6 @@ fs.writeFile(savedPath, pwd, function (err) {
     } catch (err){
         console.log('password was saved fail.');
     } finally {
-        console.log('new password:', pwd);
+        console.log('new password is: ', pwd);
     }
 });
