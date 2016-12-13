@@ -16,6 +16,8 @@ then run the command:
 reproto
 ```
 
+>The password will be saved to the current directory, a file be named `reproto.txt`.
+
 your new password will output in the terminal.
 
 The length of password is default 10, but you can assign a length by pass a args:
