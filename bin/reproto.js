@@ -3,7 +3,7 @@
 var fs = require('fs');
 
 var pwd = require('../src/index')();
-var savedPath = process.cwd() + '/password.txt';
+var savedPath = process.cwd() + '/reproto.txt';
 
 fs.writeFile(savedPath, pwd, 'utf8',function (err) {
     try{
